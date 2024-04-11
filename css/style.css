@@ -13,6 +13,7 @@
 *::after {
     padding: 0;
     margin: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -29,15 +30,6 @@ p {
     font-family: inherit;
 }
 
-input,
-input:focus,
-textarea {
-    all: unset;
-    border: none;
-    outline: none;
-    resize: none;
-}
-
 ul,
 ol,
 li {
@@ -48,11 +40,15 @@ li {
 }
 
 a {
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     display: inline-block;
 }
 
 html {
+    padding: 0;
+    margin: 0;
     height: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
